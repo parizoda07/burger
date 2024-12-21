@@ -1,0 +1,1995 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;    
+}
+body {
+    background-color: aliceblue;
+}
+body h1, h2 {
+    color: #1d2155;
+}
+body p {
+    color: #616161;
+}
+
+.container {
+    width: 1210px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.navbar {
+    
+    display: flex;
+    gap: 260px;
+    width: 1171px;
+    height: 50px;
+}
+.btnn {
+    display: none;
+}
+.btnn1 {
+    display: none;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.fa-xmark {
+    margin-right: 3%;
+    margin-top: 10%;
+    display: none;
+}
+.navbar img {
+    padding-bottom: 20px;
+}
+.fa-solid {
+    display: none;
+}
+.nav__list {
+    display: flex;
+    gap:  50px;
+}
+.list_item {
+    width: 100px;
+}
+
+.nav__link {
+    color: #363853;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+.nav__link:hover {
+    color:#FF7A50;
+}
+.nav__link:active {
+    color:#1d2155;
+}
+.content {
+    display: flex;
+    gap: 200px;
+}
+.main {
+    width: 400px;
+    height: 400px;
+    padding-top: 170px;
+}  
+.main h1 {
+    font-size: 50px;
+    color: #1d2155;
+    padding-bottom: 25px;
+}
+.main p {
+    font-size: 20px;
+    color: #616161;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.content img {
+    width: 446px;
+    height: 475px;
+}
+.btns {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.btns button {
+    width: 163px;
+    height: 45px;
+    background-color: #FF7A50;
+    border: 0;
+    color: #fff;
+    transition: all 0.6s ease-out;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btns button:hover {
+    background-color: #1d2155;
+    color: #fff;
+}
+.btns button:active {
+    background-color: #363853;
+    color: #fff;
+}
+.btns li {
+    padding-top: 12px;
+    color: #616161;
+}
+.btns li a {
+    color: #616161;
+}
+span {
+    color:#FF7A50 ;
+}
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.card1  {
+    width: 210px;
+    height: 350px;
+    transition: all 0.4s ease-in-out;
+}
+.card1:hover {
+    box-shadow: 10px 10px  #858585;
+}
+.card1 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card1 button {
+    background-color: #fff;
+    width: 210px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+}
+.card1 button:hover {
+    background-color: #FF7A50;
+}
+.card1 button img {
+    width: 44px;
+    height: 44px;
+    padding-right: 5%;
+}
+.card2 {
+    width: 210px;
+    height: 350px;
+    transition: all 0.4s ease-in-out;
+}
+.card2:hover {
+    box-shadow: 10px 10px #858585;
+}
+.card2 button {
+    background-color: #fff;
+    width: 210px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: all 0.3s ease-in;
+    border: 0;
+    border-radius: 6px;
+}
+.card2 button:hover {
+    background-color: #FF7A50;
+}
+.card2 button img {
+    width: 44px;
+    height: 44px;
+    padding-right: 5%;
+}
+.card3 {
+    width: 210px;
+    height: 350px;
+    transition: all 0.4s ease-in-out;
+}
+.card3:hover {
+    box-shadow: 10px 10px #858585;
+}
+.card3 button {
+    background-color: white;
+    width: 210px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: all 0.5s ease-in;
+    border: 0;
+    border-radius: 6px;
+}
+.card3 button:hover {
+    background-color: #FF7A50;
+}
+.card3 button img {
+    width: 44px;
+    height: 44px;
+    padding-right: 5%;
+}
+.card4 {
+    width: 210px;
+    height: 350px;
+    transition: all 0.4s ease-in-out;
+}
+.card4:hover {
+    box-shadow: 10px 10px #858585;
+}
+.card4 button {
+    background-color: white;
+    width: 210px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: all 0.5s ease-in;
+    border: 0;
+    border-radius: 6px;
+}
+.card4 button:hover {
+    background-color: #FF7A50;
+}
+.card4 button img {
+    width: 44px;
+    height: 44px;
+    padding-right: 5%;
+}
+.card5 {
+    width: 210px;
+    height: 350px;
+    transition: all 0.4s ease-in-out;
+}
+.card5:hover {
+    box-shadow: 10px 10px #858585;
+}
+.card5 button {
+    width: 210px;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: all 0.5s ease-in;
+    border: 0;
+    border-radius: 6px;
+}
+.card5 button:hover {
+    background-color: #FF7A50;
+    cursor: pointer;
+}
+.card5 button:active {
+    background-color: #616161;
+}
+.card5 button img {
+    width: 44px;
+    height: 44px;
+    padding-right: 5%;
+}
+.h {
+    margin-left: 400px;
+    padding-bottom: 30px;
+    color: #1d2155;
+}
+.content10 {
+    background-color: #fff;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.content10 button {
+    background-color: #1d2155;
+    width: 106px;
+    height: 32px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.content10 button:active {
+    background-color: #616161;
+}
+.content10 > img, p {
+    padding-left: 40px;
+}
+.swipe button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 0;
+    transition: all 0.4s ease-in-out;
+}
+.swipe button:hover {
+    background-color: #FF7A50;
+}
+.full {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #FF7A50;
+}
+.swipe-left {
+    background-color: #fff;
+    margin-right: 30px;
+}
+.swipe-right {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    margin-left: 30px;
+}
+.swipe {
+    width: 208px;
+    height: 34px;
+    margin-left: 430px;
+}
+.service {
+    margin-top: 100px;
+    width: 1212px;
+    height: 723px;
+    display: flex;
+    gap: 50px;
+}
+.service > img {
+    width: 626px;
+    height: 723px;
+}
+.content15 {
+    width: 350px;
+    height: 497px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.content15 > p {
+    color: #616161;
+    margin-left: -40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 20px ;
+}
+.content15 > h3 {
+    color: #1d2155;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content15 button {
+    margin-top: 30px;
+    background-color: #FF7A50;
+    width: 176px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    border-bottom-right-radius: 1px;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+.content15 button:hover {
+    background-color: #1d2155;
+    cursor: pointer;
+}
+.content15 button:active {
+    background-color: #616161;
+}
+.cardss {
+    width: 1169px;
+    height: 957px;
+}
+.card18 {
+    width: 361px;
+    height: 417px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+}
+.card18:hover {
+    box-shadow: 10px 10px #616161;
+}
+.card100 {
+    width: 1169px;
+    display: flex;
+    gap: 20px;
+}
+.content100 {
+    display: flex;
+    padding-left: 20px;
+}
+.card18 > h2 {
+    padding: 20px 0px 20px 20px;
+}
+.card19 {
+    width: 361px;
+    height: 417px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+}
+.card19:hover {
+    box-shadow: 10px 10px #616161;
+}
+.card19 > h2 {
+    padding: 20px 0px 20px 20px;
+}
+.content100 > p {
+    padding-left: 10px ;
+    padding-top: 5px;
+}
+.content100 button {
+    width: 79px;
+    height: 33px;
+    background-color: #FF7A50;
+    border: 0;
+    border-radius: 20px;
+    border-bottom-right-radius: 1px;
+    margin-left: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.content100 button:hover {
+    background-color: #1d2155;
+    cursor: pointer;
+}
+.content100 button:active {
+    background-color: #616161;
+}
+.card200 {
+    width: 1169px;
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+}
+.download-section {
+    width: 1175px;
+    height: 480px;
+}
+.content-section {
+    width: 538px;
+    height: 244px;
+}
+.btn100 {
+    display: flex;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.btn100  img {
+    padding: 3px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.btn100  p {
+    padding: 3px;
+    padding-top: 3px;
+    font-size: 10px;
+}
+.btn100  h4 {
+    padding-right: 15px;
+}
+.btn100:hover {
+    background-color: rgb(23, 23, 23);
+}
+.btnss {
+    display: flex;
+    gap: 40px;
+}
+.btn200 {
+    display: flex;
+    background-color: black;
+    width: 135px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.btn200  img {
+    padding: 3px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.btn200  p {
+    padding: 3px;
+    padding-top: 3px;
+    font-size: 10px;
+}
+.btn200  h4 {
+    padding-right: 15px;
+}
+.btn200:hover {
+    background-color: rgb(23, 23, 23);
+}
+.content-section {
+    margin-top: 100px;
+}
+.content-section > h1 {
+    padding-bottom: 30px;
+}
+.content-section > p {
+    padding-left: 0px;
+    font-size: 20px;
+}
+.btn100, .btn200 {
+    margin-top: 30px;
+}
+.download-section {
+    display: flex;
+}
+.main1-section {
+    display: flex;
+    gap: 50px;
+}
+.content1-section {
+    height: 206px;
+    width: 573px;
+}
+.content1-section > h3 {
+    color: #1d2155;
+    padding-top: 100px;
+    line-height: 40px;
+}
+.content1-section > h4 {
+    font-size: 25px;
+    padding-top: 80px;
+}
+.content1-section > p {
+    padding-left: 0%;
+    padding-top: 20px;
+}
+.form-section {
+    width: 1170px;
+    height: 400px;
+    background-color: #FF7A50;
+    border-radius: 20px;
+}
+.form-section > h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 340px;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.form-section > p {
+    color: #fff;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+.inp {
+    width: 838px;
+    height: 70px;
+    border-radius: 70px;
+    border: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 18px;
+    margin-left: 140px;
+    margin-top: 30px;
+    transition: all 0.4s ease-in-out ;
+}
+.inp:hover {
+    background-color: #e8e6e6;
+}
+.inp > p {
+    padding-left: 100px;
+}
+.main-footer {
+    display: flex;
+    gap: 100px;
+}
+.info > div {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.info > img {
+    padding-bottom: 30px;
+    margin-right: 5px;
+}
+.info > p {
+    padding-left: 1px;
+}
+.content200 > p {
+    padding-left: 0%;
+    line-height: 30px;
+}
+.content200 > h3 {
+    padding-bottom: 30px;
+}
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #858585; 
+    width: 1140px;
+    height: 14px;
+}
+.last-footer > ul {
+    display: flex;
+    gap: 40px;
+}
+.hh1 {
+    font-size: 40px;
+    padding-left: 400px; 
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        list-style: none;    
+    }
+    body {
+        background-color: aliceblue;
+    }
+    body h1, h2 {
+        color: #1d2155;
+    }
+    body p {
+        color: #616161;
+    }
+    .container {
+        width: 768px;
+    }
+    .navbar {
+        display: flex;
+        gap: 170px;
+        width: 1171px;
+        height: 50px;
+    }
+    .navbar img {
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .list_item {
+        width: 70px;
+    }
+    .fa-bars {
+        display: none;
+    }
+    .fa-solid {
+        display: none;
+
+    }
+    .btnn1 {
+        display: none;
+    }
+    .fa-xmark {
+        display: none;
+    }
+    .nav__list {
+        display: flex;
+        gap:  30px;
+    }
+    .nav__link {
+        color: #363853;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+        text-decoration: none;
+    }
+    .nav__link:hover {
+        color:#FF7A50;
+    }
+    .nav__link:active {
+        color:#1d2155;
+    }
+    .content {
+        display: flex;
+        gap: 80px;
+    }
+    .main {
+        width: 500px;
+        height: 200px;
+        padding-top: 100px;
+        padding-left: 10px;
+    }  
+    .main h1 {
+        font-size: 30px;
+        color: #1d2155;
+        padding-bottom: 25px;
+    }
+    .main p {
+        font-size: 20px;
+        color: #616161;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .content img {
+        width: 400px;
+        height: 450px;
+    }
+    .btns {
+        display: flex;
+        gap: 20px;
+        padding-top: 30px;
+    }
+    .btns button {
+        width: 163px;
+        height: 45px;
+        background-color: #FF7A50;
+        border: 0;
+        color: #fff;
+        transition: all 0.6s ease-out;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .btns button:hover {
+        background-color: #1d2155;
+        color: #fff;
+    }
+    .btns button:active {
+        background-color: #363853;
+        color: #fff;
+    }
+    .btns li {
+        padding-top: 12px;
+        color: #616161;
+        width: 100px;
+    }
+    .btns li a {
+        color: #616161;
+    }
+    .cards {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 100px;
+        width: 1156px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .card1  {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+    }
+    .card1:hover {
+        box-shadow: 10px 10px  #858585;
+    }
+    .card1 img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .card1 button {
+        background-color: #fff;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        border: 0;
+        border-radius: 6px;
+        transition: all 0.5s ease-in;
+    }
+    .card1 button:hover {
+        background-color: #FF7A50;
+    }
+    .card1 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card2 {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+        margin-left: 100px;
+    }
+    .card2:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card2 button {
+        background-color: #fff;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.3s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card2 button:hover {
+        background-color: #FF7A50;
+    }
+    .card2 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card3 {
+        width: 210px;   
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+    }
+    .card3:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card3 button {
+        background-color: white;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card3 button:hover {
+        background-color: #FF7A50;
+    }
+    .card3 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card4 {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+        padding-left: 200px;
+    }
+    .card4:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card4 button {
+        background-color: white;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card4 button:hover {
+        background-color: #FF7A50;
+    }
+    .card4 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card5 {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+    }
+    .card5:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card5 button {
+        width: 210px;
+        background-color: white;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card5 button:hover {
+        background-color: #FF7A50;
+        cursor: pointer;
+    }
+    .card5 button:active {
+        background-color: #616161;
+    }
+    .card5 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .h {
+        margin-left: 250px;
+        padding-bottom: 30px;
+        color: #1d2155;
+    }
+    .content10 {
+        background-color: #fff;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .content10 button {
+        background-color: #1d2155;
+        width: 106px;
+        height: 32px;
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    .content10 button:active {
+        background-color: #616161;
+    }
+    .content10 > img, p {
+        padding-left: 40px;
+    }
+    .swipe button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        border: 0;
+        transition: all 0.4s ease-in-out;
+    }
+    .swipe button:hover {
+        background-color: #FF7A50;
+    }
+    .full {
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        border: 0;
+        background-color: #FF7A50;
+    }
+    .swipe-left {
+        background-color: #fff;
+        margin-right: 30px;
+    }
+    .swipe-right {
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+        margin-left: 30px;
+    }
+    .swipe {
+        width: 208px;
+        height: 34px;
+        margin-left: 330px;
+    }
+    .service {
+        margin-top: 100px;
+        width: 1212px;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+    }
+    .service > img {
+        width: 400px;
+        height: 400px;
+    }
+    .content15 {
+        width: 350px;
+        height: 497px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .content15 > p {
+        color: #616161;
+        margin-left: -40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 20px ;
+    }
+    .content15 > h3 {
+        color: #1d2155;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content15 button {
+        margin-top: 30px;
+        background-color: #FF7A50;
+        width: 176px;
+        height: 50px;
+        border-radius: 30px;
+        border: 0;
+        border-bottom-right-radius: 1px;
+        color: #fff;
+        font-size: 18px;
+        transition: all 0.4s ease;
+    }
+    .content15 button:hover {
+        background-color: #1d2155;
+        cursor: pointer;
+    }
+    .content15 button:active {
+        background-color: #616161;
+    }
+    .hh1 {
+        padding-left: 20px;
+        font-size: 40px;
+    }
+    .cardss {
+        width: 1169px;
+        height: auto;
+        flex-wrap: wrap ;
+    }
+    .card18 {
+        width: 361px;
+        height: 417px;
+        background-color: white;
+        transition: all 0.4s ease-in-out;
+    }
+    .card18:hover {
+        box-shadow: 10px 10px #616161;
+    }
+    .card100 {
+        width: 1169px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card19 {
+        margin-left: 200px;
+    }
+    .content100 {
+        display: flex;
+        padding-left: 20px;
+    }
+    .card18 > h2 {
+        padding: 20px 0px 20px 20px;
+    }
+    .content100 > p {
+        padding-left: 10px ;
+        padding-top: 5px;
+    }
+    .content100 button {
+        width: 79px;
+        height: 33px;
+        background-color: #FF7A50;
+        border: 0;
+        border-radius: 20px;
+        border-bottom-right-radius: 1px;
+        margin-left: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    .content100 button:hover {
+        background-color: #1d2155;
+        cursor: pointer;
+    }
+    .content100 button:active {
+        background-color: #616161;
+    }
+    .card200 {
+        width: 1169px;
+        display: flex;
+        gap: 20px;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    .download-section {
+        width: 758px;
+        height: 480px;
+        gap: 20px;
+        margin-top: 100px;
+    }
+    .content-section {
+        width: 300px;
+        height: 244px;
+        padding-left: 10px;
+    }
+    .dw-img {
+        width: 450px;
+        height: 390px;
+    } 
+    .btn100 {
+        display: flex;
+        background-color: black;
+        width: 120px;
+        height: 40px;
+        border: 0;
+        border-radius: 7px;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+    .btn100  img {
+        padding: 3px;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+    .btn100  p {
+        padding: 3px;
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .btn100  h4 {
+        padding-right: 15px;
+    }
+    .btn100:hover {
+        background-color: rgb(23, 23, 23);
+    }
+    .btnss {
+        display: flex;
+        gap: 40px;
+    }
+    .btn200 {
+        display: flex;
+        background-color: black;
+        width: 135px;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+    .btn200  img {
+        padding: 3px;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+    .btn200  p {
+        padding: 3px;
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .btn200  h4 {
+        padding-right: 15px;
+    }
+    .btn200:hover {
+        background-color: rgb(23, 23, 23);
+    }
+    .content-section {
+        margin-top: 100px;
+    }
+    .content-section > h1 {
+        padding-bottom: 30px;
+    }
+    .content-section > p {
+        padding-left: 0px;
+        font-size: 20px;
+    }
+    .btn100, .btn200 {
+        margin-top: 30px;
+    }
+    .download-section {
+        display: flex;
+    }
+    .hh2 {
+        padding-left: 200px;
+    }
+    .main1-section {
+        display: flex;
+        gap: 10px;
+    }
+    .content1-section {
+        height: 180px;
+        width: 570px;
+    }
+    .content1-section > h3 {
+        color: #1d2155;
+        padding-top: 100px;
+        line-height: 30px;
+    }
+    .content1-section > h4 {
+        font-size: 25px;
+        padding-top: 80px;
+    }
+    .content1-section > p {
+        padding-left: 0%;
+        padding-top: 20px;
+    }
+    .form-section {
+        width: 768px;
+        height: 400px;
+        background-color: #FF7A50;
+        border-radius: 20px;
+    }
+    .form-section > h1 {
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .form-section > p {
+        color: #fff;
+        margin-left: 60px;
+        padding-top: 20px;
+    }
+    .inp {
+        width: 500px;
+        height: 70px;
+        border-radius: 70px;
+        border: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 30px;
+        transition: all 0.4s ease-in-out ;
+    }
+    .inp:hover {
+        background-color: #e8e6e6;
+    }
+    .inp > p {
+        padding-left: 100px;
+    }
+    .main-footer {
+        display: flex;
+        gap: 40px;
+    }
+    .info > div {
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .info > img {
+        padding-bottom: 30px;
+        margin-right: 5px;
+    }
+    .info > p {
+        padding-left: 1px;
+    }
+    .content200 > p {
+        padding-left: 0%;
+        line-height: 30px;
+    }
+    .info1 {
+        width: 153px;
+    }
+    .content200 > h3 {
+        padding-bottom: 30px;
+    }
+    .last-footer {
+        display: flex;
+        justify-content: space-between;
+        color: #858585; 
+        width: 768px;
+        height: 14px;
+    }
+    .last-footer > ul {
+        display: flex;
+        gap: 40px;
+        padding-right: 10px;
+    }
+    
+}
+@media only screen and (max-width:320px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        list-style: none;    
+    }
+    
+    body {
+        background-color: aliceblue;
+    }
+    body h1, h2 {
+        color: #1d2155;
+    }
+    body p {
+        color: #616161;
+    }
+    .container {
+        width: 320px;
+        margin: auto;                                   
+        margin-top: 50px;
+        box-sizing: border-box;
+    }
+    .navbar {
+        display: flex;
+        gap: 100px;
+        width: 320px;
+        height: 50px;
+    }
+    .navbar img {
+        padding-bottom: 21px;
+    }
+    .nav__list {
+        display: none;
+        gap:  50px;
+    }
+    .nav__link {
+        color: #363853;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+        text-decoration: none;
+    }
+    .nav__link:hover {
+        color:#FF7A50;
+    }
+    .nav__link:active {
+        color:#1d2155;
+    }
+    .content {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap-reverse;
+    }
+    .main {
+        width: 320px;
+        height: 300px;
+        padding-top: 10px;
+    }  
+    .main h1 {
+        font-size: 30px;
+        color: #1d2155;
+        padding-bottom: 25px;
+    }
+    .main p {   
+        font-size: 20px;
+        color: #616161;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .content img {
+        width: 340px;
+        height: 380px;
+        padding-top: 100px;
+    }
+    .btns {
+        display: flex;
+        gap: 20px;
+        padding-top: 30px;
+    }
+    .icons {
+        display: none;
+    }
+    .btns button {
+        width: 163px;
+        height: 45px;
+        background-color: #FF7A50;
+        border: 0;
+        color: #fff;
+        transition: all 0.6s ease-out;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .btns button:hover {
+        background-color: #1d2155;
+        color: #fff;
+    }
+    .btns button:active {
+        background-color: #363853;
+        color: #fff;
+    }
+    .btns li {
+        padding-top: 12px;
+        color: #616161;
+    }
+    .btns li a {
+        color: #616161;
+    }
+    span {
+        color:#FF7A50 ;
+    }
+    .h {
+        margin-left: 50px;
+        padding-bottom: 30px;
+        color: #1d2155;
+    }
+    .cards {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 320px;
+        margin-bottom: 0%;
+    }
+    .card1  {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .card1:hover {
+        box-shadow: 10px 10px  #858585;
+    }
+    .card1 img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .card1 button {
+        background-color: #fff;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        border: 0;
+        border-radius: 6px;
+        transition: all 0.5s ease-in;
+    }
+    .card1 button:hover {
+        background-color: #FF7A50;
+    }
+    .card1 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card2 {
+        margin-left: 60px;
+        margin-bottom: 20px;
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+    }
+    .card2:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card2 button {
+        background-color: #fff;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.3s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card2 button:hover {
+        background-color: #FF7A50;
+    }
+    .card2 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card3 {
+        margin-left: 60px ;
+        margin-bottom: 20px;
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+    }
+    .card3:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card3 button {
+        background-color: white;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card3 button:hover {
+        background-color: #FF7A50;
+    }
+    .card3 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card4 {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+        padding-left: 1px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .card4:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card4 button {
+        background-color: white;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card4 button:hover {
+        background-color: #FF7A50;
+    }
+    .card4 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .card5 {
+        width: 210px;
+        height: 350px;
+        transition: all 0.4s ease-in-out;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .card5:hover {
+        box-shadow: 10px 10px #858585;
+    }
+    .card5 button {
+        width: 210px;
+        background-color: white;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        transition: all 0.5s ease-in;
+        border: 0;
+        border-radius: 6px;
+    }
+    .card5 button:hover {
+        background-color: #FF7A50;
+        cursor: pointer;
+    }
+    .card5 button:active {
+        background-color: #616161;
+    }
+    .card5 button img {
+        width: 44px;
+        height: 44px;
+        padding-right: 5%;
+    }
+    .h {
+        margin-left: 400px;
+        padding-bottom: 30px;
+        color: #1d2155;
+    }
+    .content10 {
+        background-color: #fff;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .content10 button {
+        background-color: #1d2155;
+        width: 106px;
+        height: 32px;
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    .content10 button:active {
+        background-color: #616161;
+    }
+    .content10 > img, p {
+        padding-left: 40px;
+    }
+    .swipe button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        border: 0;
+        transition: all 0.4s ease-in-out;
+    }
+    .swipe button:hover {
+        background-color: #FF7A50;
+    }
+    .swipe {
+        margin-left: 10px;
+    }
+    .full {
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        border: 0;
+        background-color: #FF7A50;
+    }
+    .swipe-left {
+        background-color: #fff;
+        margin-right: 30px;
+    }
+    .swipe-right {
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+        margin-left: 30px;
+    }
+    .swipe {
+        width: 208px;
+        height: 34px;
+        margin-left: 430px;
+    }
+    .service {
+        margin-top: 1px;
+        width: 320px;
+        height: auto;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .service > img {
+        width: 400px;
+        height: 600px;
+    }
+    .content15 {
+        width: 350px;
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .content15 > p {
+        color: #616161;
+        margin-left: -40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 20px ;
+    }
+    .content15 > h3 {
+        color: #1d2155;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content15 button {
+        margin-top: 30px;
+        background-color: #FF7A50;
+        width: 176px;
+        height: 50px;
+        border-radius: 30px;
+        border: 0;
+        border-bottom-right-radius: 1px;
+        color: #fff;
+        font-size: 18px;
+        transition: all 0.4s ease;
+        margin-left: 70px;
+    }
+    .content15 button:hover {
+        background-color: #1d2155;
+        cursor: pointer;
+    }
+    .content15 button:active {
+        background-color: #616161;
+    }
+    .cardss {
+        width: 1169px;
+        height: 957px;
+        height: auto;
+    }
+    .card18 {
+        width: 320px;
+        height: 417px;
+        background-color: white;
+        transition: all 0.4s ease-in-out;
+    }
+    .card18:hover {
+        box-shadow: 10px 10px #616161;
+    }
+    .card100 {
+        width: 320px;
+        display: flex;
+        gap: 20px;
+    }
+    .content100 {
+        display: flex;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .card18 > h2 {
+        padding: 20px 0px 20px 20px;
+    }
+    .card19 {
+        width: 320px;
+        height: 417px;
+        background-color: white;
+        transition: all 0.4s ease-in-out;
+        margin-left: 1px;
+    }
+    .card19:hover {
+        box-shadow: 10px 10px #616161;
+    }
+    .card19 > h2 {
+        padding: 20px 0px 20px 20px;
+    }
+    .content100 > p {
+        padding-left: 10px ;
+        padding-top: 5px;
+    }
+    .content100 button {
+        width: 79px;
+        height: 33px;
+        background-color: #FF7A50;
+        border: 0;
+        border-radius: 20px;
+        border-bottom-right-radius: 1px;
+        margin-left: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    .content100 button:hover {
+        background-color: #1d2155;
+        cursor: pointer;
+    }
+    .content100 button:active {
+        background-color: #616161;
+    }
+    .card200 {
+        width: 320px;
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .download-section {
+        width: 320px;
+        height: auto;
+        flex-wrap: wrap-reverse;
+    }
+    .content-section {
+        width: 538px;
+        height: 244px;
+        margin-top: 1px;
+        margin-bottom: 100px;
+    }
+    .dw-img {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .btn100 {
+        display: flex;
+        background-color: black;
+        width: 120px;
+        height: 40px;
+        border: 0;
+        border-radius: 7px;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+    .btn100  img {
+        padding: 3px;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+    .btn100  p {
+        padding: 3px;
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .btn100  h4 {
+        padding-right: 15px;
+    }
+    .btn100:hover {
+        background-color: rgb(23, 23, 23);
+    }
+    .btnss {
+        display: flex;
+        gap: 40px;
+        height: auto;
+    }
+    .btn200 {
+        display: flex;
+        background-color: black;
+        width: 135px;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+    .btn200  img {
+        padding: 3px;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+    .btn200  p {
+        padding: 3px;
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .btn200  h4 {
+        padding-right: 15px;
+    }
+    .btn200:hover {
+        background-color: rgb(23, 23, 23);
+    }
+    .content-section {
+        height: auto;
+        margin-top: 100px;
+    }
+    .content-section > h1 {
+        padding-bottom: 30px;
+    }
+    .content-section > p {
+        padding-left: 0px;
+        font-size: 20px;
+    }
+    .btn100, .btn200 {
+        margin-top: 30px;
+    }
+    .download-section {
+        display: flex;
+    }
+    .client-section {
+        flex-wrap: wrap-reverse;
+    }
+    .main1-section {
+        display: flex;
+        gap: 10px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main1-section > img {
+        width: 320px;
+        height: 400px;
+    }
+    .content1-section {
+        height: 300px;
+        width: 513px;
+        font-size: 10px;
+    }
+    .content1-section > h3 {
+        color: #1d2155;
+        padding-top: 10px;
+        line-height: 20px;
+        width: 320px;
+        height: 100px;
+    }
+    .content1-section > h4 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .content1-section > p {
+        padding-left: 0%;
+        padding-top: 20px;
+    }
+    .form-section {
+        width: 320px;
+        height: 400px;
+        background-color: #FF7A50;
+        border-radius: 20px;
+    }
+    .form-section > h1 {
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .form-section > p {
+        color: #fff;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+        display: flex;
+    }
+    .inp {
+        width: 240px;
+        height: 50px;
+        border-radius: 70px;
+        border: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 30px;
+        transition: all 0.4s ease-in-out ;
+    }
+    .inp:hover {
+        background-color: #e8e6e6;
+    }
+    .inp > p {
+        padding-left: 100px;
+    }
+    .main-footer {
+        display: flex;
+        gap: 10px;
+    }
+    .hh2 {
+        padding-left: 20px;
+        font-size: 23px;
+    }
+    .info {
+        font-size: 10px;
+        width: 100px;
+    }
+    .info1 {
+        width: 100px;
+        font-size: 10px;
+    }
+    .info > div {
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .info > img {
+        padding-bottom: 10px;
+        margin-right: 5px;
+    }
+    .info > p {
+        padding-left: 1px;
+    }
+    .content200 > p {
+        padding-left: 0%;
+        line-height: 20px;
+    }
+    .content200 > h3 {
+        padding-bottom: 10px;
+    }
+    .last-footer {
+        display: flex;
+        gap: 10px;
+        color: #858585; 
+        width: 320px;
+        height: 14px;
+        font-size: 10px;
+    }
+    .last-footer > ul {
+        display: flex;
+        gap: 20px;
+    }
+    .nav__list {
+        position: fixed;
+        top: 90px;
+        left: 170px;
+        width: 18rem;
+        height: fit-content;
+        flex-direction: column;
+        gap: 5px;
+        display: none; 
+    }
+    
+    .nav__list li {
+        width: 100%;
+        height: 1.7rem; 
+        animation: myanimation 400ms linear forwards;
+        animation-direction: top right;
+    }
+    
+    .nav__list li:nth-child(2) {
+        animation-delay: 200ms;
+    }
+    
+    .nav__list li:nth-child(3) {
+        animation-delay: 400ms;
+    }
+    
+    .nav__list li:nth-child(4) {
+        animation-delay: 600ms;
+    }
+    
+    @keyframes myanimation {
+        0% {
+            transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: rotateZ(0deg) rotateX(0deg) scale(1);
+            opacity: 1;
+        }
+    }
+    
+    .nav__list li a {
+        color: white;
+        background: #FF7A50;
+        box-shadow: -4rem 6rem 10rem rgba(64, 62, 62, 0.6);
+        width: 45%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+    
+    .fa-bars {
+        display: none;
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .btnn {
+        border: 0;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .btnn1 {
+        border: 0;
+        border-radius: 10px;
+        display: flex;
+        margin-left: -90px;
+        margin-top: -20px;
+        flex-wrap: wrap;
+    }
+    
+    .fa-xmark {
+        margin-right: 0px;
+        margin-top: 10px ;
+        display: flex;
+    }
+    
+    .fa-solid {
+        
+        font-size:25px;
+    }
+}
+
+
